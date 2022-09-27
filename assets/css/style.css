@@ -433,6 +433,16 @@ section {
   margin-bottom: 0;
 }
 
+.btnDownload{
+  width: 200px;
+  background: #0563bb;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -1026,7 +1036,6 @@ section {
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
-
 .contact .contact-form input,
 .contact .contact-form textarea {
   border-radius: 4px;
@@ -1130,3 +1139,7 @@ section {
 #footer .copyright {
   margin: 0 0 5px 0;
 }
+
+
+/*
+3057745B16F5690580E9C2CE73F9FA5642FA*/
