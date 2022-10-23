@@ -207,24 +207,24 @@
 
 })()
 
-function sendEmail() {
-
-    let name = document.getElementById("name").value;
-    let email = document.getElementById("email").value;
-    let subject = document.getElementById("subject").value;
-    let message = document.getElementById("messageBody").value;
-
-
-
-    Email.send({
-        Host : "smtp.elasticemail.com",
-        Username : "prageethportfolio@gmail.com",
-        Password : "3057745B16F5690580E9C2CE73F9FA5642FA",
-        To : 'them@website.com',
-        From : "prageethportfolio@gmail.com",
-        Subject : "This is the subject",
-        Body : "And this is the body"
-    }).then(
-        message => alert(message)
-    );
-}
+// function sendEmail() {
+//
+//     let name = document.getElementById("name").value;
+//     let email = document.getElementById("email").value;
+//     let subject = document.getElementById("subject").value;
+//     let message = document.getElementById("messageBody").value;
+//
+//
+//
+//     Email.send({
+//         Host : "smtp.elasticemail.com",
+//         Username : "prageethportfolio@gmail.com",
+//         Password : "3057745B16F5690580E9C2CE73F9FA5642FA",
+//         To : 'them@website.com',
+//         From : "prageethportfolio@gmail.com",
+//         Subject : "This is the subject",
+//         Body : "And this is the body"
+//     }).then(
+//         message => alert(message)
+//     );
+// }
